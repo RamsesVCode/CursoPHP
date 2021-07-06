@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+#activar rewrite
+RewriteEngine on
+
+#Si hay algun error nos redirige a esta ruta
+ErrorDocument 404 http://localhost/CursoVictorRobles/Proyecto-PHP-MVC/error/
+
+#No permite ingresar ni a archivos ni directorios de manera manual
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2
+</IfModule>

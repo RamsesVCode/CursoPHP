@@ -1,0 +1,7 @@
+{
+    "require": {
+        "dompdf/dompdf": "^1.0",
+        "stefangabos/zebra_pagination": "^2.4",
+        "masterexploder/phpthumb": "^2.1"
+    }
+}

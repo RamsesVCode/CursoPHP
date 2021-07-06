@@ -1,0 +1,5 @@
+--DML INSERT
+INSERT INTO USUARIOS VALUES(NULL,'Edwin','RedoG','Redo456@gmail.com','user123','2021-05-01')
+INSERT INTO USUARIOS VALUES(NULL,'Antonio','RedoG','Antonio456@gmail.com','user123','2021-05-03')
+INSERT INTO USUARIOS VALUES(NULL,'','Roger','Roger456@gmail.com','user123','2021-05-07')
+INSERT INTO USUARIOS VALUES(NULL,'Marco','RedoG','Marco456@gmail.com','user123','2021-05-04')
