@@ -37,5 +37,16 @@
             <td colspan=3><figure><img src='./images/logo.jpg' width='200px' height='200px'/></figure></td>
         </tr>
     </table>
+    <table border=1 cellspacing=0>
+        <tr>
+            <?php for($i=1;$i<=9;$i++):?>
+            <td>
+            <?php for($j=1;$j<=10;$j++): ?>
+                <?php echo $i.'*'.$j.'='.($i*$j).'<br/>';?>
+            <?php endfor;?>
+            </td>
+            <?php endfor;?>
+        </tr>
+    </table>
 </body>
 </html>
